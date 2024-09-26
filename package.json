@@ -1,0 +1,17 @@
+{
+  "name": "peppes_load_testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "k6 run loginUser.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/k6": "^0.53.1",
+    "cross-env": "^7.0.3",
+    "k6": "^0.0.0"
+  }
+}
